@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Chan | Web Developer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">MICHAEL<span style="color:#dc3545">.DEV</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#aboutme">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container">
+            <div class="row align-items-center flex-column-reverse flex-lg-row">
+                <div class="col-lg-7 text-center text-lg-start">
+                    <h2 class="fw-light">Hi, I am</h2>
+                    <h1 class="typing mb-3">Michael Jhon A. Chan</h1>
+                    <h3 class="mb-4 text-white-50">Web Developer | Programmer | Student</h3>
+                    <p class="lead text-light mb-4">
+                        I am a passionate web developer dedicated to building user-friendly websites. 
+                        I love learning new technologies and solving problems through code.
+                    </p>
+                    <a href="#contact" class="btn btn-outline-danger btn-lg px-4">Contact Me</a>
+                    <a href="#projects" class="btn btn-danger btn-lg px-4 ms-2">View Work</a>
+                </div>
+                <div class="col-lg-5 text-center mb-4 mb-lg-0">
+                    <div class="pfp-container">
+                        <img class="pfp" src="images/my-pfp.jpeg" alt="Profile Picture">
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </header>
+
+    <section id="aboutme" class="about-section text-white">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold"><span style="border-bottom: 3px solid #dc3545;">About Me</span></h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <p class="about-text">
+                        I am an I.T. student from the <strong>University of Mindanao</strong>, currently exploring the exciting world of web development. 
+                        As a beginner, I am eager to enhance my skills in creating responsive and visually appealing websites. 
+                        <br><br>
+                        I enjoy experimenting with different web technologies to understand how things work from the ground up. 
+                        My goal is to develop practical projects that provide real value. I am highly motivated, detail-oriented, 
+                        and always open to new challenges.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Education</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card card-dark p-4">
+                        <h4 class="text-danger">Bachelor of Science in Information Technology</h4>
+                        <p class="mb-1 fw-bold">University of Mindanao</p>
+                        <p class="text-muted">2026 – Present</p>
+                        <p class="mb-0">
+                            Focused on web development, programming fundamentals, and information security concepts.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Tech Skills</h2>
+            
+            <div id="skillsCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-4">
+                                <div class="card card-dark p-4 text-center h-100">
+                                    <i class="devicon-html5-plain colored fs-1 mb-3"></i>
+                                    <h4>HTML</h4>
+                                    <p class="text-muted">Building structured web pages.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-dark p-4 text-center h-100">
+                                    <i class="devicon-css3-plain colored fs-1 mb-3"></i>
+                                    <h4>CSS</h4>
+                                    <p class="text-muted">Responsive layouts & styling.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-dark p-4 text-center h-100">
+                                    <i class="devicon-java-plain colored fs-1 mb-3"></i>
+                                    <h4>Java</h4>
+                                    <p class="text-muted">Object Oriented Programming.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row g-4 justify-content-center">
+                            <div class="col-md-4">
+                                <div class="card card-dark p-4 text-center h-100">
+                                    <i class="devicon-python-plain colored fs-1 mb-3"></i>
+                                    <h4>Python</h4>
+                                    <p class="text-muted">Automation and scripting.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card card-dark p-4 text-center h-100">
+                                    <i class="devicon-bootstrap-plain colored fs-1 mb-3"></i>
+                                    <h4>Bootstrap</h4>
+                                    <p class="text-muted">Rapid UI development.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#skillsCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#skillsCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">My Projects</h2>
+            <div class="row g-4">
+                
+                <div class="col-md-4">
+                    <div class="card card-dark h-100">
+                        <img src="https://placehold.co/600x400/1a1a1a/FFF?text=Enrollment+System" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Enrollment System</h5>
+                            <p class="card-text text-muted small">Python & SQLite</p>
+                            <p class="card-text">A beginner-friendly enrollment system designed to handle student records securely.</p>
+                            <a href="https://github.com/Michael-0722/shs-enrollment-system.git" target="_blank" class="btn btn-sm btn-outline-light mt-2">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-dark h-100">
+                        <img src="https://placehold.co/600x400/1a1a1a/FFF?text=Dashboard+System" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Login Dashboard</h5>
+                            <p class="card-text text-muted small">HTML / CSS / JS</p>
+                            <p class="card-text">A responsive dashboard interface featuring a secure login page and user overview.</p>
+                            <a href="https://github.com/Michael-0722/Chan-login_dashboard-it9.git" target="_blank" class="btn btn-sm btn-outline-light mt-2">View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card card-dark h-100 d-flex align-items-center justify-content-center border-dashed">
+                        <div class="card-body text-center">
+                            <h5 class="text-muted">Coming Soon</h5>
+                            <p class="small text-muted">More projects in progress...</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5 fw-bold">Contact Me</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control form-dark" placeholder="Your Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control form-dark" placeholder="Your Email">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control form-dark" rows="5" placeholder="Your Message"></textarea>
+                        </div>
+                        <button class="btn btn-danger w-100 py-2">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4 bg-black border-top border-secondary">
+        <div class="container">
+            <div class="mb-3">
+                <a href="https://www.facebook.com/itsumifranku" target="_blank" class="text-white mx-2 fs-4"><i class="bi bi-facebook"></i></a>
+                <a href="https://github.com/Michael-0722" target="_blank" class="text-white mx-2 fs-4"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/michael-jhon-chan-ba773334a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" class="text-white mx-2 fs-4"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p class="mb-0 text-white small">© 2026 Michael Chan | All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
